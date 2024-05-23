@@ -1,0 +1,42 @@
+// Exercise 2
+GET http://localhost:3000/api
+
+
+// Exercise 5
+###
+GET http://localhost:3000/api/negeri
+
+
+// Exercise 6
+###
+POST http://localhost:3000/api/negeri
+Content-Type: application/json
+
+{
+  "id": 14,
+  "name": "Wilayah Persekutuan Kuala Lumpur"
+}
+
+
+// Challenge 1
+###
+PUT http://localhost:3000/api/negeri/14
+content-type: application/json
+
+{
+    "name": "Wilayah Persekutuan"
+}
+
+// Challenge 2
+
+###
+POST http://localhost:3000/api/negeri
+Content-Type: application/json
+
+{
+  "id": 20,
+  "name": "Singapore"
+}
+
+###
+DELETE http://localhost:3000/api/negeri/20
